@@ -5,8 +5,9 @@ Source location for Python Pandas: Data Manipulation & Analysis
 Useful links:
 
 - https://www.google.com/publicdata/directory
-# python_pandas
 
+
+## Errors encountered along the way
 - Error after updateing to macOS Mojave
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), m
 issing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
