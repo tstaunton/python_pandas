@@ -12,5 +12,7 @@ Source location for Python Pandas: Data Manipulation & Analysis
 - Error after updateing to macOS Mojave
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools),
 missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-
 https://apple.stackexchange.com/questions/254380/macos-mojave-invalid-active-developer-path
+
+- Error when trying to clone a Git repo in Atom
+https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command
