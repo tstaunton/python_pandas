@@ -1,0 +1,3 @@
+- Pip install pandas / conda install pandas
+- Numpy
+- Matplotlib
