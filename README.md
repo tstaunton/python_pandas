@@ -6,6 +6,7 @@ Source location for Python Pandas: Data Manipulation & Analysis
 
 - https://www.google.com/publicdata/directory
 - https://www.kaggle.com
+- https://www.anaconda.com/
 
 
 ## Errors encountered along the way
