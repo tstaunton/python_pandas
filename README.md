@@ -5,6 +5,8 @@ Source location for Python Pandas: Data Manipulation & Analysis
 ## Useful links:
 
 - https://www.anaconda.com/
+- https://conda.io/docs/index.html
+- https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 - https://www.google.com/publicdata/directory
 - https://www.kaggle.com
 
