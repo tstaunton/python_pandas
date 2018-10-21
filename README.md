@@ -19,6 +19,3 @@ https://apple.stackexchange.com/questions/254380/macos-mojave-invalid-active-dev
 
 - Error when trying to clone a Git repo in Atom
 https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command
-
-- Unable to Clone Git Repo
-Investigating
