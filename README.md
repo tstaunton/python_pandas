@@ -4,9 +4,9 @@ Source location for Python Pandas: Data Manipulation & Analysis
 
 ## Useful links:
 
+- https://www.anaconda.com/
 - https://www.google.com/publicdata/directory
 - https://www.kaggle.com
-- https://www.anaconda.com/
 
 
 ## Errors encountered along the way
