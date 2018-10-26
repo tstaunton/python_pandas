@@ -9,6 +9,7 @@ Source location for Python Pandas: Data Manipulation & Analysis
 - https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 - https://www.google.com/publicdata/directory
 - https://www.kaggle.com
+- https://docs.scipy.org/doc/numpy-1.13.0/
 
 
 ## Errors encountered along the way
