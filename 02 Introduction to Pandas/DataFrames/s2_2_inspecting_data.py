@@ -2,33 +2,35 @@ import pandas as pd
 
 df = pd.read_csv('../../sample_data/02 Introduction to Pandas/intel.csv')
 
-# Print the entire DataFrame
+# Print df to make sure it works
 # print(df)
 
-# What is the data type?
+# How to check data type
 # print(type(df))
 
-# What is the shape of our DataFrame? (rows, columns)
+# How to check df shape
 # print(df.shape)
 
-# Show column names
+# View column names
 # print(df.columns)
 
-# Show top rows of DataFrame
-# print(df.head())
+# Inspect first tows of data
+# print(df.head(10))
 
-# Show info summary of DataFrame
+# Inspect last rows of data
+# print(df.tail(2))
+
+# View summary df info
 # print(df.info())
 
-# Print a column series
-# open = df['Open']
+# View open column
+# pen = df['Open']
 # print(open)
 
-# Print columns side by side
-# print(df[['Open','Close']].head())
+#print(open.head())
 
-# Using min with DataFrames
-# print(df['Open'].min())
+# View one or more columns side by side
+# print(df[['Open', 'Close']].head())
 
-# Show mean open value
-# print(df['Open'].mean())
+# Using the describe method
+# print(df.describe())
