@@ -10,4 +10,4 @@ df = pd.read_csv('../../sample_data/02 Introduction to Pandas/intel.csv')
 # print(type(new_open))
 
 # Print the values contained in new_open
-print(new_open)
+# print(new_open)
