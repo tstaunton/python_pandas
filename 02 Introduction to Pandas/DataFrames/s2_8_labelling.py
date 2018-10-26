@@ -22,8 +22,7 @@ df_sales = pd.DataFrame(sales_data)
 
 print(df_sales)
 
-# Create a new list of labels
-column_labels = ['Course', 'Day', 'Price', '24HR Sale']
+column_labels = ['Course', 'Day', 'Price', '24HR Sale Price']
 
 df_sales.columns = column_labels
 print(df_sales)

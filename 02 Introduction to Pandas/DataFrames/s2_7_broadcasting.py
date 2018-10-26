@@ -31,5 +31,5 @@ df_sales = pd.DataFrame(sales_data)
 
 print(df_sales)
 
-df_sales['New_Price'] = 2
+df_sales['New Price'] = 2
 print(df_sales)
