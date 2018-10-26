@@ -5,7 +5,7 @@ counties = ['Antrim','Armagh','Carlow','Cavan','Clare','Cork','Derry','Donegal',
             'Offaly','Roscommon','Sligo','Tipperary','Tyrone','Waterford','Westmeath','Wexford','Wicklow']
 
 # Create a string with the value 'IRELAND'
-country = 'IRELAND'
+country = "IRELAND"
 
 # Create new dictionary
 ireland = {'Country':country, 'County':counties}
