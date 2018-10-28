@@ -2,19 +2,22 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Import our data file
-stock_prices = pd.read_csv('../sample_data/03 Data Analysis/intel_stock_price.csv')
+stock_prices = pd.read_csv('../sample_data/03 Data Analysis/intel_amd_stock_prices.csv')
 
-# print(stock_prices.info())
+# Print DataFrame
+# print(stock_prices)
 
 # Create y-columns
 y_columns = ['intel', 'amd']
 
+# Name / assign axis
 stock_prices.plot(x='month', y=y_columns)
 
 # Create plot title
-plt.title('Monthly stock prices')
+plt.title('Monthly Stock Prices')
 
 # Create a title for y axis
-plt.ylabel('Price ($US)')
+plt.ylabel('Prices ($US)')
 
+# Show the plot
 plt.show()
