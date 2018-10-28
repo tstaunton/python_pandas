@@ -5,25 +5,22 @@ df = pd.read_csv('../../sample_data/02 Introduction to Pandas/intel.csv', index_
 
 # print(df.head())
 
-# open_value = df['Open'].values
+# close_value = df['Close'].values
 
-# print(type(open_value))
+# print(type(close_value))
 
-# Lets plot
-#plt.plot(open_value)
+# df['Close'].plot(color='g', style='-', legend=True)
 
-#plt.show()
+# plt.axis(('2017','2018', 0,60))
 
-# df.plot()
+df.plot(color='blue')
+
+plt.title('Stock Price')
+
+plt.xlabel('Date Range')
+
+plt.ylabel('Price ($)')
+
 # plt.show()
 
-df['Open'].plot(color='g', style='-', legend=True)
-
-plt.axis(('2017','2018', 0,60))
-
-plt.title('Intel Stock Price')
-plt.ylabel('Price')
-
-plt.savefig('df.png')
-
-plt.show()
+plt.savefig('df.pdf')
