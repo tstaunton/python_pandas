@@ -4,10 +4,15 @@ import matplotlib.pyplot as plt
 # Import our data file
 stock_prices = pd.read_csv('../sample_data/03 Data Analysis/intel_stock_price.csv')
 
-# print(stock_prices)
 
+# Print DataFrame to check
+print(stock_prices)
+
+# Plot a Bar Plot
 stock_prices.plot(y='price', kind='bar')
 
-plt.xlabel('month')
+# Name the x-axis
+plt.xlabel('Month')
 
+# Show the plot
 plt.show()
