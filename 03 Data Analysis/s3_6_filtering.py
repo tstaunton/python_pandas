@@ -1,22 +1,25 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-play_data = pd.read_csv('../sample_data/02 Introduction to Pandas/googleplaystore.csv')
-
-# Import our data file
-# stock_prices = pd.read_csv('../sample_data/03 Data Analysis/tesla.csv')
-
-# print(stock_prices['Open'])
-
-# print(stock_prices[stock_prices['Open'] == 315])
+# Read in the data file
+stock_data = pd.read_csv('../sample_data/03 Data Analysis/tesla.csv')
 
 
-# Import a previous used data file: Google Play Store Stats
-# google_play = pd.read_csv('../sample_data/02 Introduction to Pandas/googleplaystore.csv')
+# Print out the DataFrame to make sure it's working
+# print(play_data)
 
-# print(google_play[google_play['Rating'] >= 5])
+# Print out all rows with reviews greater than or equal to 5
+# print(play_data[play_data['Rating'] >= 5 ])
 
+# Create a conditional filter to find 'Arcade' with the 'Genres' column
 # arcade_data = play_data[play_data['Genres'] == 'Arcade']
 
+# Print the new arcade data
 # print(arcade_data)
+
+# print(stock_data['Open'])
+# print(stock_data['Open'])
+
+
+# print(stock_prices[stock_prices['Open'] == 315])
+print(stock_data[stock_data['Open'] == 315])
